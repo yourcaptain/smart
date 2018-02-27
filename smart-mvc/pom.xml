@@ -173,4 +173,11 @@
 			<artifactId>swagger-annotations</artifactId>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<filters>
+			<filter>deploy/${env}/jdbc.properties</filter>
+			<filter>deploy/${env}/service.properties</filter>
+		</filters>
+	</build>
 </project>

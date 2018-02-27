@@ -90,4 +90,9 @@
 			<artifactId>jstl</artifactId>
 		</dependency>
 	</dependencies>
+	<build>
+		<filters>
+			<filter>deploy/${env}/dubbo.properties</filter>
+		</filters>
+	</build>
 </project>
