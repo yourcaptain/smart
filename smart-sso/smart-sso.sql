@@ -32,8 +32,8 @@ CREATE TABLE `SYS_APP` (
 -- ----------------------------
 -- Records of SYS_APP
 -- ----------------------------
-INSERT INTO `SYS_APP` VALUES ('1', '单点登录权限管理系统', '20', '2015-06-02 11:31:44', '', 'smart-sso-server');
-INSERT INTO `SYS_APP` VALUES ('81', 'Demo管理系统', '15', '2015-11-08 17:16:39', '', 'smart-sso-demo');
+INSERT INTO `SYS_APP` VALUES ('1', '单点登录权限管理系统', '20', '2015-06-02 11:31:44', '', 'sso-server');
+INSERT INTO `SYS_APP` VALUES ('81', 'Demo管理系统', '15', '2015-11-08 17:16:39', '', 'sso-demo');
 INSERT INTO `SYS_APP` VALUES ('82', '内容管理系统', '10', '2015-11-08 17:16:39', '', 'smart-cms');
 
 -- ----------------------------
